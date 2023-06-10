@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de imágenes</title>
+  <link rel="stylesheet" type="text/css" href="/css/portafolio.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- <script src="/js/script.js"></script>
+        <img src="/imagenes/fotos1/zoldyck.jpg" alt="Imagen 1"> -->
+</head>
+<body>
+  <nav>
+    <ul>
+      <div class="container">
+        <select onchange="filtrarImagenesPorCarpeta(this.value)" id="filtro">
+          <option value=""><p id="Seleccionar">Seleccionar filtro...</p></option>
+          <option value="fotos1"><p id="f1">Filtro 1</p></option>
+          <option value="fotos2"><p id="f2">Filtro 2</p></option>
+          <option value="fotos3"><p id="f3">Filtro 3</p></option>
+          <option value="fotos4"><p id="f4">Filtro 4</p></option>
+          <option value=""><p id="Mostrar">Mostrar todo</p></option>
+        </select>
+      </div>
+        <li><a href="/index.html"><p id="inicio">Inicio</p></a></li>
+        <li><button onclick="cambiarIdioma()"><p id="boton">Cambiar Idioma</p></button></li>
+        <li><a href="/portafolio.html"><p id="Portafolio">Portafolio</p></a></li>
+        <li><a href="https://es-la.facebook.com/" target="_blank"><i class='bx bxl-facebook-circle bx-sm'></i></a></li>
+        <li><a href="https://www.instagram.com/apteryxex/" target="_blank"><i class='bx bxl-instagram-alt bx-sm'></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCTH-QXEDvn_dpcgto4ZRH_Q" target="_blank"><i class='bx bxl-youtube bx-sm'></i></a></li>
+        <li><a href="https://co.pinterest.com/ApteryxEXE/" target="_blank"><i class='bx bxl-pinterest bx-sm'></i></a></li>
+    </ul>
+    </nav>
+  <div class="box"></div>
+  <div class="container">
+    <h1 id="portafolio">PORTAFOLIO</h1>
+    <div id="gallery" class="gallery">
+      <a href="/imagenes/fotos1/narutoFondo.jpg" target="_blank">
+        <img src="/imagenes/fotos1/narutoFondo.jpg" alt="naruto" id="naruto" class="imagen" onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      <a href="/imagenes/fotos1/narutoFondo1.jpg" target="_blank">
+        <img src="/imagenes/fotos1/narutoFondo1.jpg" alt="" id="naruto1" class="imagen" onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      <a href="/imagenes/fotos1/narutoFondo2.jpg" target="_blank">
+        <img src="/imagenes/fotos1/narutoFondo2.jpg" alt="" id="naruto2" class="imagen" onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      </a>
+      <a href="/imagenes/fotos2/paisajeFondo.jpg" target="_blank">
+        <img src="/imagenes/fotos2/paisajeFondo.jpg" alt="" id="naruto3" class="imagen" onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      </a>
+      <a href="/imagenes/fotos2/paisajeFondo1.jpg" target="_blank">
+        <img src="/imagenes/fotos2/paisajeFondo1.jpg" alt="" id="naruto4" class="imagen" onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      <a href="/imagenes/fotos3/narutoFondo.jpg" target="_blank">
+        <img src="/imagenes/fotos3/narutoFondo.jpg" alt="" id="naruto5" class="imagen" onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      <a href="/imagenes/fotos3/paisajeFondo.jpg" target="_blank">
+        <img src="/imagenes/fotos3/paisajeFondo.jpg" alt="" id="naruto6" class="imagen" onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      <a href="/imagenes/fotos3/personaFondo.jpg" target="_blank">
+        <img src="/imagenes/fotos3/personaFondo.jpg" alt=""  onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      <a href="/imagenes/fotos3/portafolioPrueba.jpg" target="_blank">
+        <img src="/imagenes/fotos3/portafolioPrueba.jpg" alt=""  onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      </a>
+      <a href="/imagenes/fotos4/bokuFondo.png" target="_blank">
+        <img src="/imagenes/fotos4/bokuFondo.png" alt=""  onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      </a>
+      <a href="/imagenes/fotos4/bokuFondo1.png" target="_blank">
+        <img src="/imagenes/fotos4/bokuFondo1.png" alt=""  onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+      </a>
+      <a href="/imagenes/fotos4/bokuFondo2.png" target="_blank">
+        <img src="/imagenes/fotos4/bokuFondo2.png" alt=""  onmouseover="crearFicha()" onmouseout="eliminarFicha()">
+      </a>
+    </div>
+  </div>
+
+  <div id="contenido"></div>
+  
+
+<!--   <div class="interfaz">
+    <p class="nombreI">Nombre</p>
+    <p class="artistaI">Artista</p>
+    <p class="estiloI">Estilo Dibujo</p>
+    <p class="tiempoI">Tiempo de Desarrollo</p>
+    <p class="precioI">Precio Estimado</p>
+  </div> -->
+  <script src="/scripts/script.js"></script>
+</body>
+</html>

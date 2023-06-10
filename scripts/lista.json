@@ -1,0 +1,50 @@
+{
+    "dibujo1": {
+      "nombreDibujo": "Dibujo Abstracto",
+      "estiloArtistico": "Expresionismo",
+      "nombreArtista": "Ana López",
+      "tiempoDesarrollo": "2 semanas",
+      "precioEstimado": "$500",
+      "codigo": "ABCD1234"
+    },
+    "dibujo2": {
+      "nombreDibujo": "Retrato en Carboncillo",
+      "estiloArtistico": "Realismo",
+      "nombreArtista": "Juan Martínez",
+      "tiempoDesarrollo": "1 mes",
+      "precioEstimado": "$800",
+      "codigo": "EFGH5678"
+    },
+    "dibujo3": {
+      "nombreDibujo": "Paisaje Acuarela",
+      "estiloArtistico": "Impresionismo",
+      "nombreArtista": "María Rodríguez",
+      "tiempoDesarrollo": "3 semanas",
+      "precioEstimado": "$600",
+      "codigo": "IJKL9012"
+    },
+    "dibujo4": {
+      "nombreDibujo": "Ilustración Digital",
+      "estiloArtistico": "Pop Art",
+      "nombreArtista": "Carlos Sánchez",
+      "tiempoDesarrollo": "2 semanas",
+      "precioEstimado": "$400",
+      "codigo": "MNOP3456"
+    },
+    "dibujo5": {
+      "nombreDibujo": "Naturaleza Muerta",
+      "estiloArtistico": "Hiperrealismo",
+      "nombreArtista": "Laura Gómez",
+      "tiempoDesarrollo": "1 mes y medio",
+      "precioEstimado": "$1200",
+      "codigo": "QRST7890"
+    },
+    "dibujo6": {
+      "nombreDibujo": "Abstracción Geométrica",
+      "estiloArtistico": "Arte Concreto",
+      "nombreArtista": "Pedro Ramírez",
+      "tiempoDesarrollo": "2 semanas",
+      "precioEstimado": "$900",
+      "codigo": "UVWX1234"
+    }
+  }

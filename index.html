@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Freelancer Site</title>
+</head>
+<body>
+    <nav>
+        <ul>
+        <li><a href="/index.html"><p id="inicio">Inicio</p></a></li>
+        <li><button onclick="cambiarIdioma()"><p id="boton">Cambiar Idioma</p></button></li>
+        <li><a href="/portafolio.html"><p id="Portafolio">Portafolio</p></a></li>
+        <li><a href="https://es-la.facebook.com/" target="_blank"><i class='bx bxl-facebook-circle bx-sm'></i></a></li>
+        <li><a href="https://www.instagram.com/apteryxex/" target="_blank"><i class='bx bxl-instagram-alt bx-sm'></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCTH-QXEDvn_dpcgto4ZRH_Q" target="_blank"><i class='bx bxl-youtube bx-sm'></i></a></li>
+        <li><a href="https://co.pinterest.com/ApteryxEXE/" target="_blank"><i class='bx bxl-pinterest bx-sm'></i></a></li>
+    </ul>
+    </nav>
+    <h1 id="cita">«Dibujar es poner una línea alrededor de una idea». Henri Matisse.</h1>
+
+    <div class="section">
+        <h2 class="section-title" id="estilo">Estilos de dibujo</h2>
+        <p id="section-h2">Contenido de la sección.</p>
+        <p id="section-h2-2">Contenido de la sección.</p>
+        <p id="section-h2-3">Contenido de la sección.</p>
+        <div class="gallery">
+            <a href="/imagenes/portafolioPrueba.jpg" target="_blank">
+                <img src="/imagenes/portafolioPrueba.jpg" alt="Imagen 1" class="clickable-image">
+            </a>
+            <a href="/imagenes/portafolioPrueba.jpg" target="_blank">
+                <img src="/imagenes/portafolioPrueba.jpg" alt="Imagen 2" class="clickable-image">
+            </a>
+            <a href="/imagenes/portafolioPrueba.jpg" target="_blank">
+                <img src="/imagenes/portafolioPrueba.jpg" alt="Imagen 3" class="clickable-image">
+            </a>
+        </div>
+    </div>
+
+    <div class="circle-button" onclick="mostrarElementos()">
+        <span><img src="/imagenes/chat-solid-24.png" alt=""></span>
+    </div>
+    <div id="contenedor"></div>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>

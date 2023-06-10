@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400&family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400&family=Rubik:wght@400;500&display=swap');
+
+
+body{
+  background-image: url('/imagenes/triangles-1430105.svg');
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+nav {
+  /* background-color: #2c236caf; */
+  font-family: 'Roboto Condensed', sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: hsl(217, 100%, 84%);
+}
+
+.box {
+  position: absolute;
+  height: 2202px;
+  width: 1233px;
+  left: 104px;
+  top: -100px;
+  border-radius: 0px;
+  
+  background-color: #333;
+  margin: 20px;
+  z-index: -1;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    
+  }
+
+  #filtro{
+    position: absolute;
+    text-align: right;
+    left: 150px;
+    top: 25px;
+
+  }  
+
+  #filtroBoton{
+    position: absolute;
+    text-align: right;
+    left: 300px;
+    top: 25px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .overlay-content {
+    padding: 20px;
+  }
+
+  .interfaz{
+    position: fixed;
+    width: 263px;
+    height: 351px;
+    left: 1177px;
+    top: 256px;
+    
+    background: #000000;
+    border-radius: 15px;
+  }
+
+
+
+  .nombreI{
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: white ;
+
+/*     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+
+    color: black; */
+
+  }
+
+  .artistaI{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: white;
+
+  }
+
+  .estiloI{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color:white;
+  }
+
+  .tiempoI{
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color:white;
+
+  }
+
+  .precioI{
+
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color:white;
+    
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
